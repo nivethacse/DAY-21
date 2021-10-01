@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+.container {
+    background-color: blueviolet;
+    width: 70%;
+    height: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter,
+.greeting {
+    padding-bottom: 1rem;
+    font-size: 3.5rem;
+}
